@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kube-scheduler-${ARCH}
+FROM k8s.gcr.io/kube-scheduler-amd64:1.9.0
