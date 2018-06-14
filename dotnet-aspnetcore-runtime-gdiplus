@@ -1,0 +1,3 @@
+FROM microsoft/dotnet:2.1-aspnetcore-runtime
+MAINTAINER geekbuy.cn
+RUN apt-get update -y && apt-get install -y libc6-dev
