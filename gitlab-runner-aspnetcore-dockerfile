@@ -1,0 +1,3 @@
+FROM gitlab/gitlab-runner:latest
+FROM microsoft/dotnet:2.1-aspnetcore-runtime
+MAINTAINER geekbuy.cn
