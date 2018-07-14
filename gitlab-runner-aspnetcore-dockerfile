@@ -19,7 +19,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 RUN apt-get update \
     && apt-get install apt-transport-https \
-	   dotnet-runtime-deps-2.1 -y \
+       dotnet-runtime-deps-2.1 -y \
        dotnet-runtime-2.1 \
        aspnetcore-runtime-2.1 \
        dotnet-sdk-2.1 
